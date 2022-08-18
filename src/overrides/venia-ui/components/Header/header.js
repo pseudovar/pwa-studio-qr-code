@@ -19,7 +19,7 @@ import MegaMenu from '@magento/venia-ui/lib/components/MegaMenu';
 import PageLoadingIndicator from '@magento/venia-ui/lib/components/PageLoadingIndicator';
 import { useIntl } from 'react-intl';
 import { QrReader } from 'react-qr-reader';
-import QRIcon from './QRIcon.svg';
+import QRTrigger from './QRTrigger';
 
 const SearchBar = React.lazy(() =>
     import('@magento/venia-ui/lib/components/SearchBar')
@@ -77,6 +77,13 @@ const Header = props => {
         <Fragment>
             <div className={classes.switchersContainer}>
                 <div className={classes.switchers} data-cy="Header-switchers">
+                    <QRTrigger
+                        onPointerDown={e => {
+                            e.preventDefault();
+                            setShowQRScanner(!showQRScanner);
+                        }}
+                        isTopBar={true}
+                    />
                     <StoreSwitcher />
                     <CurrencySwitcher />
                 </div>
@@ -85,25 +92,12 @@ const Header = props => {
                 <div className={classes.toolbar}>
                     <div className={classes.primaryActions}>
                         <NavTrigger />
-                        <div className="flex items-center">
-                            <span
-                                className="flex items-center"
-                                onPointerDown={e => {
-                                    e.preventDefault();
-                                    setShowQRScanner(!showQRScanner);
-                                    console.log('here');
-                                }}
-                            >
-                                <img
-                                    src={QRIcon}
-                                    alt="QR Scanner"
-                                    width="30px"
-                                />
-                                <span className="hidden sm_inline sm_ml-1">
-                                    QR Scanner
-                                </span>
-                            </span>
-                        </div>
+                        <QRTrigger
+                            onPointerDown={e => {
+                                e.preventDefault();
+                                setShowQRScanner(!showQRScanner);
+                            }}
+                        />
                     </div>
                     <OnlineIndicator
                         hasBeenOffline={hasBeenOffline}
@@ -131,7 +125,7 @@ const Header = props => {
                 <PageLoadingIndicator absolute />
             </header>
 
-            <div>
+            <div style={{ maxWidth: '400px', margin: '0 auto' }}>
                 {showQRScanner && (
                     <QrReader
                         onResult={(result, error) => {

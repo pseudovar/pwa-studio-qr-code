@@ -1,0 +1,12 @@
+.root {
+    composes: flex from global;
+    composes: sm_hidden from global;
+    composes: ml-2 from global;
+    composes: items-center from global;
+}
+
+.large {
+    composes: hidden from global;
+    composes: sm_flex from global;
+    composes: items-center from global;
+}
