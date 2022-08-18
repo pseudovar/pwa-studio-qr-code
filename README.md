@@ -27,8 +27,8 @@
 ### Screenshots
 
 ![Homepage Screenshot](docs/images/Homepage-Screenshot.png?raw=true 'Homepage')
-![QR Scanner](docs/images/Homepage-Screenshot.png?raw=true 'QR Scanner')
-![Product Page Redirect](docs/images/Homepage-Screenshot.png?raw=true 'Product Page Redirect')
+![QR Scanner](docs/images/QR-Scan.png?raw=true 'QR Scanner')
+![Product Page Redirect](docs/images/Product-Page.png?raw=true 'Product Page Redirect')
 
 ### QR Examples
 
