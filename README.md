@@ -38,21 +38,20 @@ The QR code should just have the relative path to the page that you want to load
 
 You can download the ones below to your phone, or create your own using a link that already exists. **Remember just the path, not the full URL**.
 
-![Customer Service](docs/examples/Customer-Service.png?raw=true 'Customer Service')
-
 #### Customer Service
 
 /customer-service
-![Fauna Pants](docs/examples/Fauna-Pants?raw=true 'Fauna Pants')
+![Customer Service](docs/examples/Customer-Service.png?raw=true | width=100)
 
 #### Fauna Pants
 
 /fauna-palazzo-pants.html
-![Juno Sweater](docs/examples/Juno-Sweater.png?raw=true 'Juno Sweater')
+![Fauna Pants](docs/examples/Fauna-Pants.png?raw=true | width=100)
 
 #### Juno Sweater
 
 /juno-sweater.html
+![Juno Sweater](docs/examples/Juno-Sweater.png?raw=true | width=100)
 
 ## Built Using
 
