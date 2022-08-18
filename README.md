@@ -42,19 +42,19 @@ You can download the ones below to your phone, or create your own using a link t
 
 /customer-service
 
-![Customer Service](docs/examples/Customer-Service.png?raw=true | width=100)
+<img src="docs/examples/Customer-Service.png?raw=true" width="100" height="100" />
 
 #### Fauna Pants
 
 /fauna-palazzo-pants.html
 
-![Fauna Pants](docs/examples/Fauna-Pants.png?raw=true | width=100)
+<img src="docs/examples/Fauna-Pants.png?raw=true" width="100" height="100" />
 
 #### Juno Sweater
 
 /juno-sweater.html
 
-![Juno Sweater](docs/examples/Juno-Sweater.png?raw=true | width=100)
+<img src="docs/examples/Juno-Sweater.png?raw=true" width="100" height="100" />
 
 ## Built Using
 
