@@ -3,7 +3,7 @@
 ## Installation
 
 -   Setup
-    -   Make sure you have all the [https://developer.adobe.com/commerce/pwa-studio/](pre-requisits installed)
+    -   Make sure you have all the [pre-requisits installed](https://developer.adobe.com/commerce/pwa-studio/)
     -   Tested with Node 14
 -   Clone or Download this repo to a folder
 -   In terminal run `yarn install`
